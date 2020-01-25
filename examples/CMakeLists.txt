@@ -1,3 +1,4 @@
+set (CMAKE_C_STANDARD 99)
 add_executable(map-addr map-addr.c)
 target_link_libraries(map-addr vmi_shared)
 
